@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My simple web page</title>
+  </head>
+  <body>
+    <h1>My web page</h1>
+    <p>My name is <strong>Joseph Rex</strong> and these are my social profiles:</p>
+    <ul>
+      <li id="facebook">Facebook</li>
+      <li id="twitter">Twitter</li>
+      <li id="instagram">Instagram</li>
+    </ul>
+    <div id="entry"></div>
+    <footer>
+      <!-- Don't do this
+      &copy; <script charset="utf-8">document.write((new Date()).getFullYear())</script>. Front-End Engineering
+      -->
+      &copy; <span id="date"></span>. Front-End Engineering
+    </footer>
+    <script>
+      document.getElementById('date').textContent = (new Date()).getFullYear();
+      var entry = document.querySelector('#entry');
+      var clickText = 'You clicked ';
+      // var facebook = document.getElementById('facebook');
+      // var socialLink = document.getClassNames('social');
+      // var socialLink = document.querySelectorAll('.social');
+      var facebook = document.querySelector('#facebook');
+      var twitter = document.querySelector('#twitter');
+      var instagram = document.querySelector('#instagram');
+      clickLink(facebook);
+      clickLink(twitter);
+      clickLink(instagram);
+      function clickLink(link) {
+        // link.onclick = function() {}
+        link.addEventListener('click', function() {
+          var newContent = clickText + link.innerText;
+          // alert(newContent);
+          entry.textContent = newContent;
+        });
+      }
+    </script>
+  </body>
+</html>
