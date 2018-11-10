@@ -6,7 +6,7 @@ help you become a great front-end engineer.
 ### Author
 > Joseph Rex (https://josephrex.me)
 
-### Curriculum
+## Curriculum
 - **week 1** - HTML and CSS intro
 - **week 2** - CSS Preprocessors and Frameworks
 - **week 3** - Command Line and Git

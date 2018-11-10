@@ -5,6 +5,10 @@
 - Introduction to DOM
 - Traversing the DOM
 - JavaScript Event Listeners
+
+### Assignment
+Create a web page with 3 of your favorite animals and show which animal
+is clicked at each time
 ### Resources and Links shared
 - [Event Driven Programming][1]
 - [JavaScript Event Listeners][2]
