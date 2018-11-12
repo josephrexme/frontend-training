@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1,width=device-width">
+  <title>Module 4 Assignment</title>
+<style>
+body{ margin: 0; text-align: center; }
+.container{
+  display: flex;
+  margin: auto;
+  width: 500px;
+  height: 200px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+.container div{
+  flex: 0, 0, 33.3%;
+  max-width: 33.3%;
+  padding: 20px;
+}
+img{
+  width: 100%;
+}
+</style>
+</head>
+<body>
+  <h1>Animal Identifier</h1>
+  <div class="container">
+    <div><img src="./dog.png" id="dog" alt="A dog" /></div>
+    <div><img src="./cat.png" id="cat" alt="A cat" /></div>
+    <div><img src="./bunny.png" id="bunny" alt="A bunny" /></div>
+  </div>
+  <h4 id="display"></h4>
+  <script>
+    var display = document.getElementById('display');
+    var dog = document.getElementById('dog');
+    var cat = document.getElementById('cat');
+    var bunny = document.getElementById('bunny');
+    [dog, cat, bunny].forEach(function(el){
+      clickEvnt(el);
+    });
+    function clickEvnt(el) {
+      var animalName = el.getAttribute('alt');
+      el.addEventListener('click', function() {
+        display.textContent = animalName;
+      });
+    }
+  </script>
+</body>
+</html>
