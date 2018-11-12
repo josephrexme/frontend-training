@@ -9,7 +9,7 @@
 ### Assignment
 Create a web page with 3 of your favorite animals and show which animal
 is clicked at each time
-### Resources and Links shared
+### Resources and Links
 - [Event Driven Programming][1]
 - [JavaScript Event Listeners][2]
 - [Dangers of using document.write][3]

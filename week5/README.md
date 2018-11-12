@@ -17,7 +17,7 @@ we received your message:
 A reply has been sent to your email: {email from the contact from here}.
 ```
 
-Resources and Links
+### Resources and Links
 - [jQuery documentation](https://jquery.com)
 - [jQuery CDNJS CDN](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js)
 - [jQuery Google APIs CDN](https://developers.google.com/speed/libraries/)
