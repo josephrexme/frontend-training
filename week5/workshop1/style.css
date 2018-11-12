@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background: #ededed;
+}
+.container{
+  padding: 20px;
+  overflow: hidden;
+}
+form{
+  margin: 10px 0 40px;
+}
+label{
+  display: block;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+input{
+  height: 35px;
+}
+input, textarea{
+  width: 300px;
+  border: solid thin #ddd;
+}
+textarea{
+  resize: none;
+}
+button{
+  display: block;
+  margin: 10px 0;
+}
