@@ -41,9 +41,11 @@ A reply has been sent to your email: {email from the contact from here}.
 - [Bootstrap modal component](http://getbootstrap.com/docs/4.1/components/modal/)
 - [Vex customizable modals](http://github.hubspot.com/vex/docs/welcome/)
 - [Sweet Alert modal](https://sweetalert.js.org)
+- [Functional Programming Primer][5]
 
 
 [1]: https://en.wikipedia.org/wiki/Event-driven_programming
 [2]: https://developer.mozilla.org/en-US/docs/Web/API/EventListener
 [3]: https://stackoverflow.com/questions/802854/why-is-document-write-considered-a-bad-practice
 [4]: https://josephrexme.github.io/stutern-frontend-assignment/
+[5]: https://x-team.com/blog/functional-programming-primer/
