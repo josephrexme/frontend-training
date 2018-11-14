@@ -17,6 +17,7 @@ is clicked at each time
 
 ### Solution 1
 **Files:** https://github.com/josephrexme/frontend-training/tree/master/module4/assignment1
+
 **Demo:** https://josephrexme.github.io/stutern-frontend-assignment/
 
 ### Assignment 2
