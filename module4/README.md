@@ -21,7 +21,7 @@ is clicked at each time
 **Demo:** https://josephrexme.github.io/stutern-frontend-assignment/
 
 ### Assignment 2
-Clone the workshop from the class and use jQuery along with any other library to display a modal once the form is submitted. The form should become empty after it gets submitted and the modal should display all the contents of the form like:
+Clone the [workshop from the class][6] and use jQuery along with any other library to display a modal once the form is submitted. The form should become empty after it gets submitted and the modal should display all the contents of the form like:
 ```
 Hello {Steve Martin - name from the contact form},
 we received your message:
@@ -50,3 +50,4 @@ A reply has been sent to your email: {email from the contact from here}.
 [3]: https://stackoverflow.com/questions/802854/why-is-document-write-considered-a-bad-practice
 [4]: https://josephrexme.github.io/stutern-frontend-assignment/
 [5]: https://x-team.com/blog/functional-programming-primer/
+[6]: https://github.com/josephrexme/frontend-training/blob/master/module4/workshop2/index.html
