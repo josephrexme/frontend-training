@@ -1,5 +1,5 @@
 ## Module 4
-**Link to slide:** [Module 4 Slide](https://app.ludus.one/ebeb988c-2899-4296-a5f8-2e4d68389288#1)
+**Link to slide:** [Module 4 Slides](https://app.ludus.one/ebeb988c-2899-4296-a5f8-2e4d68389288#1)
 
 ### Contents
 - Primitive Datatypes

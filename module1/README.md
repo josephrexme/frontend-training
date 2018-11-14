@@ -1,6 +1,6 @@
 ## Module 1
 
-**Link to slide:** [Module 1 Slide][1]
+**Link to slide:** [Module 1 Slides][1]
 
 ### Contents
 - Introduction to front-end development
