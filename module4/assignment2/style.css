@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  --border-radius: 4px;
+}
+body{
+  margin: 0;
+  background: #2f3456;
+  color: #eee;
+  text-align: center;
+}
+.container{
+  padding: 20px;
+  overflow: hidden;
+}
+.main{
+  width: 350px;
+  margin: auto;
+  text-align: left;
+  background: #fff;
+  color: #222;
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+form{
+  margin: 10px 0;
+}
+label{
+  display: block;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+input{
+  height: 35px;
+}
+input, textarea{
+  width: 300px;
+  padding: 10px;
+  border: solid thin #ddd;
+}
+textarea{
+  resize: none;
+}
+button{
+  -webkit-appearance: none;
+  display: block;
+  width: 300px;
+  margin: 20px 0;
+  padding: 20px;
+  background: #858185;
+  border: 0;
+  color: #eee;
+  border-radius: var(--border-radius);
+  font: inherit;
+  cursor: pointer;
+  transition: all .5s ease-in-out .1s;
+}
+button:hover{
+  transform: translateY(-5px);
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, .5);
+}
+blockquote{
+  padding: 10px;
+  color: #888;
+  border-left: solid medium #555;
+}
+.tingle-modal-box{
+  color: #222;
+}
+
