@@ -29,6 +29,9 @@ we received your message:
 A reply has been sent to your email: {email from the contact from here}.
 ```
 
+### Solution 2
+**Files:** https://github.com/josephrexme/frontend-training/tree/master/module4/assignment2
+
 ### Resources and Links
 - [JavaScript datatypes and data structures][4]
 - [Event Driven Programming][1]
@@ -43,6 +46,8 @@ A reply has been sent to your email: {email from the contact from here}.
 - [Vex customizable modals](http://github.hubspot.com/vex/docs/welcome/)
 - [Sweet Alert modal](https://sweetalert.js.org)
 - [Functional Programming Primer][5]
+- [Functional Programming Class Demo][7]
+- [JavaScript Template Literals][8]
 
 
 [1]: https://en.wikipedia.org/wiki/Event-driven_programming
@@ -51,3 +56,5 @@ A reply has been sent to your email: {email from the contact from here}.
 [4]: https://josephrexme.github.io/stutern-frontend-assignment/
 [5]: https://x-team.com/blog/functional-programming-primer/
 [6]: https://github.com/josephrexme/frontend-training/blob/master/module4/workshop2/index.html
+[7]: https://codepen.io/josephrexme/pen/rQmdKY?editors=0012
+[8]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
