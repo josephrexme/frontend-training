@@ -1,4 +1,4 @@
-## Module 5
+## Module 6
 **Link to slide:** [Module 5 Slides][1]
 
 ### Contents

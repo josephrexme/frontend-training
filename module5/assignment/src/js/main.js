@@ -16,6 +16,7 @@
     .then(function (response) {
       // handle success
       output.textContent = '';
+      // response.data.data
       const { data: { data } } = response;
       data.forEach((gif, index) => {
         images[`img${index}`].src = gif.images.original.url;
