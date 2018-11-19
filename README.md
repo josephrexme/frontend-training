@@ -12,5 +12,5 @@ help you become a great front-end engineer.
 - **module 3** - Command Line and Git
 - **module 4** - JavaScript
 - **module 5** - Working with APIs
-- **module 6** - Web Components - React
+- **module 6** - Modules and Components (React)
 
