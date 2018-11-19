@@ -30,26 +30,28 @@ gulp.task('styles', () => {
     .pipe($.cssnano())
     .pipe($.sourcemaps.write(paths.target.sourcemaps))
     .pipe(gulp.dest(paths.target.styles))
+    .pipe(browserSync.stream())
 });
 
 gulp.task('scripts', () => {
   gulp.src(paths.source.scripts)
     .pipe($.plumber())
     .pipe($.sourcemaps.init())
-    .pipe($.concat('app.js'))
     .pipe($.babel())
+    .pipe($.concat('app.js'))
     .pipe($.uglify())
     .pipe($.sourcemaps.write(paths.target.sourcemaps))
     .pipe(gulp.dest(paths.target.scripts))
+    .pipe(browserSync.stream())
 });
 
 gulp.task('serve', () => {
   browserSync.init({ server: { baseDir: './' } });
-  gulp.watch('src/scss/*.scss', ['styles']);
+  gulp.watch('src/scss/**/*.scss', ['styles']);
   gulp.watch('src/js/*.js', ['scripts']);
   gulp.watch('*.html').on('change', browserSync.reload);
 });
 
 gulp.task('build', ['scripts', 'styles']);
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['scripts', 'styles', 'serve']);

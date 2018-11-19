@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  &:focus{
+    outline-color: #555;
+    outline-width: thin;
+  }
+}
+::selection{
+  background: #f0f0f0;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+  font-family: $font-stack;
+}
+input{
+  font-family: inherit;
+}
+a{
+  text-decoration: none;
+  color: lighten($color-primary, 10%);
+}
+.container{
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+img{
+  width: 100%;
+}

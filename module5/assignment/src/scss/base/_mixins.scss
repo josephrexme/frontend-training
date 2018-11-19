@@ -1,0 +1,15 @@
+// Responsive Breakpoints
+@mixin breakpoint($value){
+  @media only screen and (min-width: $value){
+    @content;
+  }
+}
+// Tinted Hero Images
+@mixin tinted-bg($overlay-color, $alpha-level, $image, $size: normal){
+  @if function-exists(image-url){
+    background: linear-gradient(rgba($overlay-color, $alpha-level), rgba($overlay-color, $alpha-level)), image-url($image);
+  } @else {
+    background: linear-gradient(rgba($overlay-color, $alpha-level), rgba($overlay-color, $alpha-level)), url($image);
+  }
+  background-size: $size;
+}

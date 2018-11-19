@@ -6,6 +6,7 @@
     "scripts": "gulp scripts"
   },
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.1",
