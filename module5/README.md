@@ -14,6 +14,8 @@
 ### Assignment
 Signup at https://developers.giphy.com , get an API key and make a web page with a search button that displays 3 images of the searched entry from Giphy API.
 
+### Solution
+**Files:** https://github.com/josephrexme/frontend-training/tree/master/module5/assignment
 
 ### Resources and Links
 - [httpstatuscodes][2]
