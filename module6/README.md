@@ -1,5 +1,5 @@
 ## Module 6
-**Link to slide:** [Module 5 Slides][1]
+**Link to slide:** [Module 6 Slides][1]
 
 ### Contents
 - Task Runners and Module Bundlers
