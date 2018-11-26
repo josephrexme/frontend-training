@@ -7,8 +7,10 @@
 - Web Components
 - React
 
-### Assignment
-> Finish up homework from last module
+### Assignment 1
+Re-create the API homework from the last class with a task runner for your styles and javascript. Gulp or Grunt could be used for this.
+
+**Solution:** [Module 5 solution][17]
 
 ### Resources and Links
 - [JavaScript Object Destructuring][2]
@@ -43,3 +45,4 @@
 [14]: https://github.com/creationix/nvm
 [15]: https://github.com/tj/n
 [16]: https://github.com/browserslist/browserslist
+[17]: https://github.com/josephrexme/frontend-training/tree/master/module5/assignment
