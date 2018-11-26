@@ -1,0 +1,15 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #aaa;
+  text-align: center;
+}
+
+h1 {
+  color: #555;
+  font-size: 45px;
+}

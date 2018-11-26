@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "semi": ["error", "always"],
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "comma-dangle": "off"
+  }
+}

@@ -1,25 +1,22 @@
 {
-  "name": "sga-module6-workshop",
+  "name": "gulp-101",
   "version": "1.0.0",
-  "description": "React Recipes App for SGA",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "react",
-    "recipe",
-    "stutern",
-    "frontend"
-  ],
-  "author": "",
-  "license": "GPL-3.0",
+  "description": "learning gulp",
+  "main": "gulpfile.js",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "webpack": "^3.12.0"
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
   },
-  "devDependencies": {
-    "webpack-dev-server": "^3.1.10"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC"
 }

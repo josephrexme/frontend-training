@@ -18,6 +18,10 @@
 - [CSSNano optimizer for CSS (PostCSS)][6]
 - [Gulp Task Runner][7]
 - [Browserify module bundler for Gulp][8]
+- [Difference between normalize.css and reset.css][13]
+- [NVM - Node version manager][14]
+- [N - Node version manager][15]
+- [Browserlist][16]
 - [Cohesion and Coupling blog post][9]
 - [Web Components][10]
 - [Understanding the Shadow DOM][11]
@@ -35,3 +39,7 @@
 [10]: https://www.webcomponents.org
 [11]: https://www.josephrex.me/understanding-the-shadow-dom/
 [12]: https://reactjs.org/docs/reconciliation.html
+[13]: https://stackoverflow.com/a/8357635
+[14]: https://github.com/creationix/nvm
+[15]: https://github.com/tj/n
+[16]: https://github.com/browserslist/browserslist

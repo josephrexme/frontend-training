@@ -1,0 +1,13 @@
+$color-one: #aaa;
+$color-two: #555;
+
+*{ box-sizing: border-box }
+body{
+  margin: 0;
+  background: $color-one;
+  text-align: center;
+}
+h1{
+  color: $color-two;
+  font-size: 45px;
+}
