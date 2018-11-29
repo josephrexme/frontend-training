@@ -4,6 +4,7 @@ const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
 const uglify = require('gulp-uglify');
+const browserify = require('gulp-browserify');
 const browserSync = require('browser-sync').create();
 
 gulp.task('css', () => {
@@ -18,8 +19,9 @@ gulp.task('css', () => {
 
 gulp.task('js', () => {
   gulp.src('src/js/*.js')
+    .pipe(browserify())
     .pipe(concat('app.js'))
-    .pipe(uglify())
+    // .pipe(uglify())
     .pipe(gulp.dest('dist/js'))
     .pipe(browserSync.stream())
 });
