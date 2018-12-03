@@ -1,5 +1,6 @@
 require('dotenv').config();
 const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
@@ -16,7 +17,14 @@ const config = {
         exclude: /node_modules/
       },
       {
-        test: /\.(jpe?g|png)$/,
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: 'css-loader?minimize=true',
+        })
+      },
+      {
+        test: /\.(jpe?g|png|gif)$/,
         use: [
           'file-loader',
           {
@@ -39,6 +47,10 @@ const config = {
     extensions: ['*', '.js', '.jsx']
   },
   plugins: [
+    new ExtractTextPlugin({
+      filename: 'bundle.css',
+      allChunks: true
+    }),
     new HtmlWebpackPlugin({
       title: 'Gif Searcher App',
       template: 'src/template.html',

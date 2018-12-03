@@ -86,6 +86,94 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _assertThisInitialized(self) {\n  if (self === void 0) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return self;\n}\n\nmodule.exports = _assertThisInitialized;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/assertThisInitialized.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _classCallCheck(instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}\n\nmodule.exports = _classCallCheck;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/classCallCheck.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/createClass.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/createClass.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _defineProperties(target, props) {\n  for (var i = 0; i < props.length; i++) {\n    var descriptor = props[i];\n    descriptor.enumerable = descriptor.enumerable || false;\n    descriptor.configurable = true;\n    if (\"value\" in descriptor) descriptor.writable = true;\n    Object.defineProperty(target, descriptor.key, descriptor);\n  }\n}\n\nfunction _createClass(Constructor, protoProps, staticProps) {\n  if (protoProps) _defineProperties(Constructor.prototype, protoProps);\n  if (staticProps) _defineProperties(Constructor, staticProps);\n  return Constructor;\n}\n\nmodule.exports = _createClass;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/createClass.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _getPrototypeOf(o) {\n  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {\n    return o.__proto__ || Object.getPrototypeOf(o);\n  };\n  return _getPrototypeOf(o);\n}\n\nmodule.exports = _getPrototypeOf;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/getPrototypeOf.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ \"./node_modules/@babel/runtime/helpers/setPrototypeOf.js\");\n\nfunction _inherits(subClass, superClass) {\n  if (typeof superClass !== \"function\" && superClass !== null) {\n    throw new TypeError(\"Super expression must either be null or a function\");\n  }\n\n  subClass.prototype = Object.create(superClass && superClass.prototype, {\n    constructor: {\n      value: subClass,\n      writable: true,\n      configurable: true\n    }\n  });\n  if (superClass) setPrototypeOf(subClass, superClass);\n}\n\nmodule.exports = _inherits;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/inherits.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var _typeof = __webpack_require__(/*! ../helpers/typeof */ \"./node_modules/@babel/runtime/helpers/typeof.js\");\n\nvar assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ \"./node_modules/@babel/runtime/helpers/assertThisInitialized.js\");\n\nfunction _possibleConstructorReturn(self, call) {\n  if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) {\n    return call;\n  }\n\n  return assertThisInitialized(self);\n}\n\nmodule.exports = _possibleConstructorReturn;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _setPrototypeOf(o, p) {\n  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {\n    o.__proto__ = p;\n    return o;\n  };\n\n  return _setPrototypeOf(o, p);\n}\n\nmodule.exports = _setPrototypeOf;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/setPrototypeOf.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("function _typeof2(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof2(obj); }\n\nfunction _typeof(obj) {\n  if (typeof Symbol === \"function\" && _typeof2(Symbol.iterator) === \"symbol\") {\n    module.exports = _typeof = function _typeof(obj) {\n      return _typeof2(obj);\n    };\n  } else {\n    module.exports = _typeof = function _typeof(obj) {\n      return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : _typeof2(obj);\n    };\n  }\n\n  return _typeof(obj);\n}\n\nmodule.exports = _typeof;\n\n//# sourceURL=webpack:///./node_modules/@babel/runtime/helpers/typeof.js?");
+
+/***/ }),
+
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -218,6 +306,18 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./src/components/Home.jsx":
+/*!*********************************!*\
+  !*** ./src/components/Home.jsx ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/getPrototypeOf.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _styles_app_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/app.css */ \"./src/styles/app.css\");\n/* harmony import */ var _styles_app_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_app_css__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n\n\n\n\n\nvar Home =\n/*#__PURE__*/\nfunction (_Component) {\n  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Home, _Component);\n\n  function Home() {\n    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Home);\n\n    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Home).apply(this, arguments));\n  }\n\n  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Home, [{\n    key: \"render\",\n    value: function render() {\n      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5__[\"Fragment\"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"header\", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"h1\", null, \"Gif Searcher\"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"p\", null, \"Search for gif images across the globe\"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"form\", {\n        action: \"\"\n      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"label\", {\n        htmlFor: \"search\"\n      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"input\", {\n        type: \"search\",\n        placeholder: \"Search for anything\"\n      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"button\", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"svg\", {\n        viewBox: \"0 0 24 24\",\n        xmlns: \"http://www.w3.org/2000/svg\",\n        \"fill-rule\": \"evenodd\",\n        \"clip-rule\": \"evenodd\",\n        \"stroke-linejoin\": \"round\",\n        \"stroke-miterlimit\": \"1.414\"\n      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"path\", {\n        d: \"M2.3 20.3L6 16.6c-1.2-1.5-2-3.5-2-5.6 0-5 4-9 9-9s9 4 9 9-4 9-9 9c-2.1 0-4.1-.7-5.6-2l-3.7 3.7c-.2.2-.5.3-.7.3-.2 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4zM20 11c0-3.9-3.1-7-7-7s-7 3.1-7 7c0 1.9.8 3.7 2 4.9 1.3 1.3 3 2 4.9 2 4 .1 7.1-3 7.1-6.9z\",\n        \"fill-rule\": \"nonzero\"\n      }))))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"div\", null)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"main\", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"div\", {\n        className: \"grid\"\n      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"footer\", null, \"Copyright \\xA9 SGA 2018. Images by \", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(\"a\", {\n        href: \"https://giphy.com\"\n      }, \"Giphy\")));\n    }\n  }]);\n\n  return Home;\n}(react__WEBPACK_IMPORTED_MODULE_5__[\"Component\"]);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home);\n\n//# sourceURL=webpack:///./src/components/Home.jsx?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -226,7 +326,18 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hello World!\"), document.getElementById('app'));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Home */ \"./src/components/Home.jsx\");\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('app'));\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/styles/app.css":
+/*!****************************!*\
+  !*** ./src/styles/app.css ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/styles/app.css?");
 
 /***/ })
 
