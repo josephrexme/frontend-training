@@ -5,6 +5,7 @@ import MoonGif from '../img/moon.gif';
 
 const host = 'http://api.giphy.com/v1';
 const apiKey = 'jwSnPSGXDTp7oqP7M3e3HQvuSJQYj73G';
+
 const readyMap = state => (({
   initial: '',
   loading: 'Loading...',
@@ -21,7 +22,7 @@ class Home  extends Component  {
       image3: 'http://placehold.it/200',
       ready: 'initial',
       input: '',
-    }
+    };
     this.addInput = this.addInput.bind(this);
     this.fetchGifs = this.fetchGifs.bind(this);
   }
@@ -34,13 +35,12 @@ class Home  extends Component  {
     event.preventDefault();
     const { input } = this.state;
     this.setState({
-      loading: 'loading',
+      ready: 'loading',
       input: ''
     });
     axios.get(`${host}/gifs/search?q=${input}&api_key=${apiKey}&limit=3`)
     .then(response => {
       const { data: { data } } = response;
-      console.log(data);
       this.setState({
         ready: 'loaded',
         image1: data[0].images.original.url,
@@ -64,7 +64,7 @@ class Home  extends Component  {
     return (
       <Fragment>
         <header className="header">
-          <img src={MoonGif} alt="Moon Gif" class="moon" />
+          <img src={MoonGif} alt="Moon Gif" className="moon" />
           <h1>Gif Searcher</h1>
           <p>Search for gif images across the globe</p>
           <form action="" onSubmit={this.fetchGifs}>
