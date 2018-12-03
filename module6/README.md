@@ -13,7 +13,9 @@ Re-create the API homework from the last class with a task runner for your style
 **Solution:** [Module 5 solution][17]
 
 ### Assignment 2
-Re-create the API homework from the last with webpack module bundler handling your styles and javascript.
+Re-create the API homework from the last classes with React and webpack module bundler handling your styles and javascript.
+
+**Solution:** [Assignment Solution][24]
 
 ### Resources and Links
 - [JavaScript Object Destructuring][2]
@@ -61,3 +63,4 @@ Re-create the API homework from the last with webpack module bundler handling yo
 [21]: https://github.com/css-modules/css-modules
 [22]: https://www.styled-components.com
 [23]: https://babeljs.io/
+[24]: https://github.com/josephrexme/frontend-training/tree/master/module6/assignment
