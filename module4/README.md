@@ -15,22 +15,15 @@
 Create a web page with 3 of your favorite animals and show which animal
 is clicked at each time
 
-### Solution 1
-**Files:** https://github.com/josephrexme/frontend-training/tree/master/module4/assignment1
-
-**Demo:** https://josephrexme.github.io/stutern-frontend-assignment/
-
 ### Assignment 2
-Clone the [workshop from the class][6] and use jQuery along with any other library to display a modal once the form is submitted. The form should become empty after it gets submitted and the modal should display all the contents of the form like:
+Clone the [workshop from the class][6] and use jQuery along with any other library to display a modal once the form is submitted.
+The form should become empty after it gets submitted and the modal should display all the contents of the form like:
 ```
 Hello {Steve Martin - name from the contact form},
 we received your message:
 {Message from the contact form here}
 A reply has been sent to your email: {email from the contact from here}.
 ```
-
-### Solution 2
-**Files:** https://github.com/josephrexme/frontend-training/tree/master/module4/assignment2
 
 ### Resources and Links
 - [JavaScript datatypes and data structures][4]
