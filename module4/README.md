@@ -41,6 +41,7 @@ A reply has been sent to your email: {email from the contact from here}.
 - [Functional Programming Primer][5]
 - [Functional Programming Class Demo][7]
 - [JavaScript Template Literals][8]
+- [Debugging JavaScript without Fatigue][9]
 
 
 [1]: https://en.wikipedia.org/wiki/Event-driven_programming
@@ -51,3 +52,4 @@ A reply has been sent to your email: {email from the contact from here}.
 [6]: https://github.com/josephrexme/frontend-training/blob/master/module4/workshop2/index.html
 [7]: https://codepen.io/josephrexme/pen/rQmdKY?editors=0012
 [8]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+[9]: https://x-team.com/blog/debugging-javascript-without-fatigue/
