@@ -11,19 +11,15 @@
 - Libraries (External scripts, jQuery)
 - Programming Paradigms (Functional Programming)
 
-### Assignment 1
-Create a web page with 3 of your favorite animals and show which animal
-is clicked at each time
+### Assignment
+- Create a palindrome checker web page using the design below:
 
-### Assignment 2
-Clone the [workshop from the class][6] and use jQuery along with any other library to display a modal once the form is submitted.
-The form should become empty after it gets submitted and the modal should display all the contents of the form like:
-```
-Hello {Steve Martin - name from the contact form},
-we received your message:
-{Message from the contact form here}
-A reply has been sent to your email: {email from the contact from here}.
-```
+![Palindrome Checker](https://raw.githubusercontent.com/josephrexme/frontend-training/master/assets/palindrome.jpg)
+
+
+- Create a letter recurrence counter web page using the design below:
+
+![Letter recurrence counter](https://raw.githubusercontent.com/josephrexme/frontend-training/master/assets/letter-counter.jpg)
 
 ### Resources and Links
 - [JavaScript datatypes and data structures][4]
