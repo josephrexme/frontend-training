@@ -12,10 +12,8 @@
 - Testing REST API with curl and postman
 
 ### Assignment
-Signup at https://developers.giphy.com , get an API key and make a web page with a search button that displays 3 images of the searched entry from Giphy API.
-
-### Solution
-**Files:** https://github.com/josephrexme/frontend-training/tree/master/module5/assignment
+Using [airtable.com](https://airtable.com), create a meal planner database and
+make a web page that fetches and adds data to your airtable database.
 
 ### Resources and Links
 - [httpstatuscodes][2]
