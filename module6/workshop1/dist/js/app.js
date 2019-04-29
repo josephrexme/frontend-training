@@ -491,17 +491,17 @@
 });
 
 },{}],2:[function(require,module,exports){
+const pluralize = require('pluralize');
 (function(){
-  const pluralize = require('pluralize');
-  console.log(pluralize('orange', 1));
-  console.log(pluralize('orange', 4));
+  console.log('1 ' + pluralize('orange', 1));
+  console.log('4 ' + pluralize('orange', 4));
   console.log('I am the first');
 }());
 
 },{"pluralize":1}]},{},[2])
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 (function(){
-  console.log('I am the second');
+  console.log('I am the second one');
 }());
 
 },{}]},{},[1])
