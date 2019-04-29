@@ -15,6 +15,13 @@
 Using [airtable.com](https://airtable.com), create a meal planner database and
 make a web page that fetches and adds data to your airtable database.
 
+Your web page should use the design below:
+
+![SGA Web Project](https://raw.githubusercontent.com/josephrexme/frontend-training/master/assets/SGA%20web%20project.jpg)
+
+
+> **Note:** The hero header background can be download from here: https://unsplash.com/photos/jUPOXXRNdcA
+
 ### Resources and Links
 - [httpstatuscodes][2]
 - [Fetch API][3]
