@@ -10,12 +10,8 @@
 ### Assignment 1
 Re-create the API homework from the last class with a task runner for your styles and javascript. Gulp or Grunt could be used for this.
 
-**Solution:** [Module 5 solution][17]
-
 ### Assignment 2
 Re-create the API homework from the last classes with React and webpack module bundler handling your styles and javascript.
-
-**Solution:** [Assignment Solution][24]
 
 ### Resources and Links
 - [JavaScript Object Destructuring][2]
@@ -56,11 +52,9 @@ Re-create the API homework from the last classes with React and webpack module b
 [14]: https://github.com/creationix/nvm
 [15]: https://github.com/tj/n
 [16]: https://github.com/browserslist/browserslist
-[17]: https://github.com/josephrexme/frontend-training/tree/master/module5/assignment
 [18]: https://en.wikipedia.org/wiki/Regular_expression
 [19]: https://regex101.com
 [20]: https://github.com/babel/babel-loader
 [21]: https://github.com/css-modules/css-modules
 [22]: https://www.styled-components.com
 [23]: https://babeljs.io/
-[24]: https://github.com/josephrexme/frontend-training/tree/master/module6/assignment
