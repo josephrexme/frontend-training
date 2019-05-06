@@ -1,5 +1,5 @@
 {
-  "name": "workshop3",
+  "name": "workshop4",
   "version": "1.0.0",
   "description": "React Project",
   "main": "server.js",
@@ -12,8 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.1.5",
+    "@reach/router": "^1.2.1",
+    "axios": "^0.18.0",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.2.0",
     "webpack": "^4.26.1"
   },
   "devDependencies": {

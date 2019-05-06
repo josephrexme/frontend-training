@@ -68,7 +68,7 @@ const config = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Nollywood Database',
+      title: 'My App Title',
       inject: false,
       template: HtmlWebpackTemplate,
       hash: true,

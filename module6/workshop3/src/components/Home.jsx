@@ -1,37 +1,52 @@
-import React, { Component } from 'react';
+import React, { useState, useRef } from 'react';
 
-class Home extends Component{
-  constructor() {
-    super();
-    this.state = {
-      name: 'Janet Doe',
-      users: []
-    };
-    this.addUser = this.addUser.bind(this);
-  }
+function Home() {
+  const [number, setNumber] = useState(0);
+  const [value, setValue] = useState('');
+  const [formValue, setFormValue] = useState('');
+  const entry = useRef();
 
-  addUser() {
-    this.setState({
-      users: this.state.users.concat('new user')
-    });
-  }
+  const addNumber = () => {
+    setNumber(number + 1);
+  };
 
-  render() {
-    const { name, users } = this.state;
-    return (
-      <React.Fragment>
-        <h1>This is my page - { name }</h1>
-        <p>This is the homepage</p>
-        <button onClick={this.addUser}>Add User</button>
-        <h4>Current Users</h4>
-        <ul>
-          { users.map((user, index) => (
-            <li key={index}>{user}</li>
-          )) }
-        </ul>
-      </React.Fragment>
-    );
-  }
+  const processForm = (e) => {
+    e.preventDefault();
+    setFormValue(entry.current.value);
+  };
+
+  const updateValue = (e) => {
+    setValue(e.target.value);
+  };
+
+  return (
+    <div>
+      <header>
+        <h1>This is the header</h1>
+      </header>
+      <main>
+        <p>This is where the main content go!!</p>
+        <section>
+          <h3>Number Addition</h3>
+          <button onClick={addNumber}>Add number</button>
+          <p><strong>{number}</strong></p>
+        </section>
+        <section>
+          <h3>Live input</h3>
+          <input type="text" onChange={updateValue} />
+          <p><strong>{value}</strong></p>
+        </section>
+        <section>
+          <h3>Form submission</h3>
+          <form onSubmit={processForm}>
+            <input type="text" ref={entry} />
+            <input type="submit" value="Submit Form" />
+            <p><strong>{formValue}</strong></p>
+          </form>
+        </section>
+      </main>
+    </div>
+  );
 }
 
 export default Home;
